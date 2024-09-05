@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>navbar </div>;
+  return <div>navbar</div>;
 }
