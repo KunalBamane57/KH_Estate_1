@@ -1,7 +1,7 @@
 const Home = async () => {
   return (
     <main>
-      <div className="container">hello</div>
+      <div className="container"></div>
     </main>
   );
 }

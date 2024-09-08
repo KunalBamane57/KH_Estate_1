@@ -1,5 +1,7 @@
 import { redirect } from "next/navigation";
 import Navbar from "@/components/navigation/navbar"
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
 
 const MainLayout = async ({ children }: { children: React.ReactNode }) => {
   return (
