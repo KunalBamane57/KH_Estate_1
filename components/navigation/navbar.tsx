@@ -436,17 +436,21 @@ const Navbar: React.FC = () => {
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="flex flex-col items-center mt-3">
                   <DropdownMenuLabel className="font-normal hover:bg-gray-50">
-                    Signup
+                  <Link href="/login">
+                        Signup
+                    </Link>
                   </DropdownMenuLabel>
                   <DropdownMenuLabel className="font-normal hover:bg-gray-50">
-                    Login
+                    <Link href="/login">
+                        Login
+                    </Link>
                   </DropdownMenuLabel>
                   <DropdownMenuSeparator />
                   <DropdownMenuItem>KH_Estates Your home</DropdownMenuItem>
                   <DropdownMenuItem>Host an experience</DropdownMenuItem>
                   <DropdownMenuItem>
                     <Link href="/destination-page">
-                    <button>Help center</button>
+                    <Link href="/help-center">Help center</Link>
                     </Link>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
