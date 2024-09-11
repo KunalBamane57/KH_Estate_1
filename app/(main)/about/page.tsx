@@ -1,7 +1,7 @@
 const About = async () => {
     return (
       <main>
-        <div className="container">AboutPage</div>
+        <div className="h-[500px]">AboutPage</div>
       </main>
     );
   }
