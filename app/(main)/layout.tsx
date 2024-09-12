@@ -8,11 +8,11 @@ const MainLayout = async ({ children }: { children: React.ReactNode }) => {
     <div className="h-full relative">
       <div className="">
         <Navbar/>
-        {/* <Container_1/> */}
       </div>
       <main className="child">{children}</main>
+      <Container_1/>
       <Footer/>
-    </div>
+    </div>       
   );
 };
 
