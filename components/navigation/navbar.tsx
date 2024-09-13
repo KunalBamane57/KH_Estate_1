@@ -93,11 +93,11 @@ const Navbar: React.FC = () => {
             }`}
           >
             <div className="logo flex-shrink-0">
-              <Image
+              {/* <Image
                 src={Airbnb_Logo}
                 alt="Airbnb Logo"
                 className="h-8 w-24 md:h-12 md:w-36"
-              />
+              /> */}
             </div>
             <div className="hidden md:flex flex-grow justify-center space-x-5 list-none pl-20 text-xl">
               <li className="font-bold cursor-pointer">Stays</li>
