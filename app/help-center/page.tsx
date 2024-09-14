@@ -1,9 +1,13 @@
 import Languagebar from "@/components/ui/languagebar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
-import Image from "next/image"
-import { AspectRatio } from "@/components/ui/aspect-ratio"
-import helpcare_1 from "./helpcare_assets/helpcare_1.jpg"
+import Image from "next/image";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import helpcare_1 from "./helpcare_assets/helpcare_1.jpg";
+import helpcare_2 from "./helpcare_assets/helpcare_2.jpg";
+import helpcare_3 from "./helpcare_assets/helpcare_3.jpg";
+import helpcare_4 from "./helpcare_assets/helpcare_4.jpg";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -91,36 +95,143 @@ const HelpCenter = async () => {
 
         <div className="inner_con_2 py-10">
           <div className="inner_con_2_box1 flex items-center justify-between">
-            <h2 className="text-3xl">Guides for getting started</h2>
+            <h2 className="text-3xl font-semibold">
+              Guides for getting started
+            </h2>
             <a href="#">
-              Browse all topics <FontAwesomeIcon icon={faChevronRight} style={{ color: "#000000", }} />
+              Browse all topics{" "}
+              <FontAwesomeIcon
+                icon={faChevronRight}
+                style={{ color: "#000000" }}
+              />
             </a>
           </div>
-          <div className="inner_con_2_box1 flex gap-10 text-center">
+          <div className="inner_con_2_box2 flex gap-6 text-center py-10">
             <div className="w-[300px]">
-              <AspectRatio ratio={16/9}>
-                <Image src={helpcare_1} alt="Image" className="rounded-md object-cover" />
-                <p>Getting started with KH_Estates</p>
+              <AspectRatio ratio={16 / 9}>
+                <Image
+                  src={helpcare_1}
+                  alt="Image"
+                  className="rounded-md object-cover"
+                />
+                <p className="pt-3">Getting started with KH_Estates</p>
               </AspectRatio>
             </div>
             <div className="w-[300px]">
-              <AspectRatio ratio={16/9}>
-                <Image src={helpcare_1} alt="Image" className="rounded-md object-cover" />
-                <p>Access and manage your account</p>
+              <AspectRatio ratio={16 / 9}>
+                <Image
+                  src={helpcare_2}
+                  alt="Image"
+                  className="rounded-md object-cover"
+                />
+                <p className="pt-3">Access and manage your account</p>
               </AspectRatio>
             </div>
             <div className="w-[300px]">
-              <AspectRatio ratio={16/9}>
-                <Image src={helpcare_1} alt="Image" className="rounded-md object-cover" />
-                <p>Help with a reservation</p>
+              <AspectRatio ratio={16 / 9}>
+                <Image
+                  src={helpcare_3}
+                  alt="Image"
+                  className="rounded-md object-cover"
+                />
+                <p className="pt-3">Help with a reservation</p>
               </AspectRatio>
             </div>
             <div className="w-[300px]">
-              <AspectRatio ratio={16/9}>
-                <Image src={helpcare_1} alt="Image" className="rounded-md object-cover" />
-                <p>AirCover for guests</p>
+              <AspectRatio ratio={16 / 9}>
+                <Image
+                  src={helpcare_4}
+                  alt="Image"
+                  className="rounded-md object-cover"
+                />
+                <p className="pt-3">AirCover for guests</p>
               </AspectRatio>
             </div>
+          </div>
+        </div>
+        <div className="inner_con_2_box3 mt-10 pt-10">
+          <h1 className="text-3xl font-semibold">Top articles</h1>
+        </div>
+        <div className="inner_con_2_box4 flex flex-wrap gap-3">
+          <div className="small_box1 w-[355px] py-10 mb-2 border-b-2 cursor-pointer">
+            <h2 className="underline underline-offset-1 text-lg font-semibold">
+              Cancelling your reservation for a stay
+            </h2>
+            <p>
+              Your plans have changed and now you need to cancel your
+              reservation. No problem.
+            </p>
+          </div>
+          <div className="small_box1 w-[360px] py-10 mb-2 border-b-2 cursor-pointer">
+            <h2 className="underline underline-offset-1 text-lg font-semibold">
+              Change the date or time of your Experience reservation
+            </h2>
+            <p>
+              You booked an Experience, but the date or time no longer works for
+              you? Don’t worry, you...
+            </p>
+          </div>
+          <div className="small_box1 w-[355px] py-10 mb-2 border-b-2 cursor-pointer">
+            <h2 className="underline underline-offset-1 text-lg font-semibold">
+              If your Host cancels your reservation
+            </h2>
+            <p>
+              While it’s rare, sometimes a Host may need to cancel a
+              reservation. We understand this can...
+            </p>
+          </div>
+          <div className="small_box1 w-[355px] py-10 mb-2 border-b-2 cursor-pointer">
+            <h2 className="underline underline-offset-1 text-lg font-semibold">
+              Payment methods accepted
+            </h2>
+            <p>
+              KH_Estates supports different payment methods, depending on the
+              country your payment...
+            </p>
+          </div>
+          <div className="small_box1 w-[355px] py-10 mb-2 border-b-2 cursor-pointer">
+            <h2 className="underline underline-offset-1 text-lg font-semibold">
+              Editing, removing, or adding a payment method
+            </h2>
+            <p>
+              If an existing payment method on your account is incorrect (e.g.
+              an expired credit...
+            </p>
+          </div>
+          <div className="small_box1 w-[355px] py-10 mb-2 border-b-2 cursor-pointer">
+            <h2 className="underline underline-offset-1 text-lg font-semibold">
+              When you’ll pay for your reservation
+            </h2>
+            <p>
+              You just made a reservation – congrats! So, what happens next?
+              Your payment method
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="con_3 h-[400px] bg-black text-white">
+        <div className="inner_1 mx-48">
+          <div className="inner_con_3_box1 my-10 pt-10">
+            <h1 className="text-3xl font-semibold">Explore More</h1>
+          </div>
+          <div className="inner_con_3_box2 flex gap-5">
+            <div className="smallbox_1 w-[350px] bg-gray-700">
+                <Image
+                  src={helpcare_4}
+                  alt="Image"
+                  className="rounded-md object-cover"
+                />
+                <p className="pt-3 text-white">AirCover for guests</p>
+            </div>
+            <div className="smallbox_1 w-[350px]">
+                <Image
+                  src={helpcare_4}
+                  alt="Image"
+                  className="rounded-md object-cover"
+                />
+                <p className="pt-3">AirCover for guests</p>
+            </div>
+            <div className="smallbox_1 w-[350px]"></div>
           </div>
         </div>
       </div>
