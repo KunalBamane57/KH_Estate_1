@@ -98,25 +98,25 @@ const HelpCenter = async () => {
           </div>
           <div className="inner_con_2_box1 flex gap-10 text-center">
             <div className="w-[300px]">
-              <AspectRatio ratio={16/9}>
+              <AspectRatio ratio={16 / 9}>
                 <Image src={helpcare_1} alt="Image" className="rounded-md object-cover" />
                 <p>Getting started with KH_Estates</p>
               </AspectRatio>
             </div>
             <div className="w-[300px]">
-              <AspectRatio ratio={16/9}>
+              <AspectRatio ratio={16 / 9}>
                 <Image src={helpcare_1} alt="Image" className="rounded-md object-cover" />
                 <p>Access and manage your account</p>
               </AspectRatio>
             </div>
             <div className="w-[300px]">
-              <AspectRatio ratio={16/9}>
+              <AspectRatio ratio={16 / 9}>
                 <Image src={helpcare_1} alt="Image" className="rounded-md object-cover" />
                 <p>Help with a reservation</p>
               </AspectRatio>
             </div>
             <div className="w-[300px]">
-              <AspectRatio ratio={16/9}>
+              <AspectRatio ratio={16 / 9}>
                 <Image src={helpcare_1} alt="Image" className="rounded-md object-cover" />
                 <p>AirCover for guests</p>
               </AspectRatio>
