@@ -128,6 +128,9 @@ const Navbar: React.FC = () => {
                   <DropdownMenuItem className="cursor-pointer">
                     <Link href="/help-center">Help center</Link>
                   </DropdownMenuItem>
+                  <DropdownMenuItem className="cursor-pointer">
+                    <Link href="/home">Homes</Link>
+                  </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
 
