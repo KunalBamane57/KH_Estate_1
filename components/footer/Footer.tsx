@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="upperfooter border-b-2">
         <div className="w-full bg-neutral-50 py-12">
           <div className="px-4 md:px-8 lg:px-16 xl:px-[100px]">
-            <Upperfooter/>
+            <Upperfooter/> 
           </div>
         </div>
       </div>
